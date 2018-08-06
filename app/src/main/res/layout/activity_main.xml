@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_centerInParent="true"
+            android:textOff="@string/turn_off"
+            android:textOn="@string/turn_on" />
+
+        <TextView android:id="@+id/txt_value0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0:" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+        <TextView android:id="@+id/txt_value1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1:" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+        <TextView android:id="@+id/txt_value2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2:" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+        <TextView android:id="@+id/txt_value3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3:" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+        <TextView android:id="@+id/txt_value4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4:" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+        <TextView android:id="@+id/txt_value5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5:" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+        <TextView android:id="@+id/txt_value6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6:" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+        <TextView android:id="@+id/txt_value7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="7:" />
+        <TextView android:id="@+id/txt_value8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8:" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+        <TextView android:id="@+id/txt_value9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9:" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+        <TextView android:id="@+id/txt_value10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10:" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+        <WebView
+            android:id="@+id/id_wv_ua"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

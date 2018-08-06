@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GetParams</string>
+    <string name="turn_off">关闭WiFi</string>
+    <string name="turn_on">打开WiFi</string>
+</resources>
